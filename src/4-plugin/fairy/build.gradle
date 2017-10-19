@@ -11,6 +11,9 @@ dependencies {
 
     runtimeOnly project(':pigs')
     runtimeOnly project(':bears')
+
+    compile 'org.apache.logging.log4j:log4j-api:2.9.1'
+    runtimeOnly 'org.apache.logging.log4j:log4j-core:2.9.1'
 }
 
 javaModule.name = 'org.gradle.fairy.app'
